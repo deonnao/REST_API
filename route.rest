@@ -1,0 +1,27 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers
+
+###
+
+POST http://localhost:3000/subscribers/625b3ca03fb0e315241d1d30
+content-type: application/json
+
+{
+"name": "Deonna",
+"subscribedToChannel": "Deonna Marie"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers
+
+###
+PATCH http://localhost:3000/subscribers/625b3ca03fb0e315241d1d30
+content-type: application/json
+
+{
+    "name": "New Name"
+}
